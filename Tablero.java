@@ -74,9 +74,17 @@ public class Tablero extends JPanel implements KeyListener {
     private Timer looper;
     private Color[][] board = new Color[TABLERO_HEIGHT][TABLERO_WIDTH];
 
-    private Color[] colors = {Color.decode("#91A6FF"), Color.decode("#FF88DC"),
-            Color.decode("#FAFF7F"), Color.decode("#32A287"), Color.decode("#FF5154"),
-            Color.decode("#7B4B94"), Color.decode("#FF674D"), Color.decode("#CCD1D1")};
+    private Color[] colors = {
+    Color.decode("#00FFFF"), // Neon Azul
+    Color.decode("#FF00FF"), // Neon Rosa
+    Color.decode("#FFFF00"), // Neon Amarillo
+    Color.decode("#00FF00"), // Neon Verde
+    Color.decode("#FFA500"), // Neon Naranja
+    Color.decode("#FFB6C1"), // rosa pastel
+    Color.decode("#FF0000"), // Neon Rojo
+    Color.decode("#AEB6BF")  // gris claro
+};
+
     // private int[][] shape1 = {
     //     {1,1,1},
     //     {0,1,0}
